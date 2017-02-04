@@ -13,9 +13,6 @@ $(".my").hrStringColor({
 ```
 
 ### Options Details
-> string - Add Your string
-> charNum - Enter number of characters like "5" it will apply color on starting 5 letter (default number is 10)
-> color -  add your favorite color, with HEX , name, and egb
-
-
-###### It's free to use
+*  **string** - Add Your string
+* **charNum** - Enter number of characters like "5" it will apply color on starting 5 letter (default number is 10)
+* **color** -  add your favorite color, with HEX and rgb
