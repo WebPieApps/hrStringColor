@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>hrStringColor - Change perticular characters in string</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="change_color_string.js"></script>
-
+<script src="hrStringColor.js"></script>
 <script>
 $(document).ready(function(){
-
-$(".my").hrStringColor({
-		string 			: 	 "Hi i am Computer programmer. You can add your own",
-		charNumber 		: 	 10, //Add number of characters which you want to color
-		color 			:  	 "orange" // add your color
+	$(".my").hrStringColor({
+		charFrom		:	10,  // Index of character, where to start
+		charTo 			: 	30, // Index of character, where to end
+		color 			:  	"red" // add your color
+	});
+	
+	$(".another").hrStringColor({
+		charFrom		:	3,  // Index of character, where to start
+		charTo 			: 	40, // Index of character, where to end
+		color 			:  	"blue" // add your color
+	});
 });
-
-});
-
 </script>
-
 </head>
 <body>
-
-
-<h1 class="my">  </h1>
-
+<h1 class="my">This is simple text</h1>
+<h2 class="another"> Hey this is another text by hardcode in he tags</h2>
 </body>
-
 </html>
